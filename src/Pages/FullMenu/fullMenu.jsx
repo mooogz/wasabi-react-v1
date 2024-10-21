@@ -9,7 +9,8 @@ const FullMenu = () => {
     { name: "Soup & Salads", items: menuData.find(category => category.category === "Soup & Salads")?.items },
     { name: "Udon Soup", items: menuData.find(category => category.category === "Udon Soup")?.items },
     { name: "Yaki Udon", items: menuData.find(category => category.category === "Yaki Udon")?.items, description: menuData.find(category => category.category === "Yaki Udon")?.description },
-    { name: "Poke Bowls", items: menuData.find(category => category.category === "Poke Bowls")?.items, description: menuData.find(category => category.category === "Poke Bowls")?.description }
+    { name: "Poke Bowls", items: menuData.find(category => category.category === "Poke Bowls")?.items, description: menuData.find(category => category.category === "Poke Bowls")?.description },
+    { name: "Hibachi", items: menuData.find(category => category.category === "Hibachi")?.items, description: menuData.find(category => category.category === "Hibachi")?.description }
   ];
 
   return (

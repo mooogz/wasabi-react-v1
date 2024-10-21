@@ -8,16 +8,19 @@ padding: 2rem 0;
 `
 
 export const MenuHeader = styled.h2`
-color: limegreen;
+color: #A8C686;
 text-align: center;
 `
 
 export const MenuList = styled.ul`
-color: #fff;
+color: #F5F5DC;
 padding: 1rem 0;
 `
 
 export const ItemName = styled.span`
-  color: green;
+  color: #90A959;
   font-weight: bold;
 `;
+
+export const ItemPrice = styled.span`
+  color: #C4D647;`

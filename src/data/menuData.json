@@ -146,6 +146,69 @@
         "price": 13.50
       }
     ]
+  },
+  {
+    "category": "Hibachi",
+    "description": "Served with fried rice, vegetables, and miso soup or house salad.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Vegetable",
+        "description": "Zucchini, onion, mushroom, broccoli, bell pepper, carrots, and bean sprouts.",
+        "price": 12.00
+      },
+      {
+        "id": 2,
+        "name": "Chicken",
+        "description": "Teriyaki or soy-style. Zucchini, onion, and bell pepper.",
+        "price": 14.95
+      },
+      {
+        "id": 3,
+        "name": "Shrimp",
+        "description": "Zucchini, onion, and broccoli.",
+        "price": 17.50
+      },
+      {
+        "id": 4,
+        "name": "Salmon",
+        "description": "Teriyaki salmon with zucchini, onion, and broccoli.",
+        "price": 17.50
+      },
+      {
+        "id": 5,
+        "name": "Ribeye Steak",
+        "description": "Zucchini, onion, and mushroom.",
+        "price": 17.50
+      },
+      { "id": 6,
+        "name": "Filet Mignon",
+        "description": "Zucchini, onion, and mushroom.",
+        "price": 19.95
+      },
+      { "id": 7,
+        "name": "Steak & Chicken",
+        "description": "Ribeye steak and teriyaki chicken with zucchini, onion, bell pepper, and mushroom.",
+        "price": 19.50
+      },
+      { "id": 8,
+        "name": "Chicken & Shrimp",
+        "description": "Teriyaki chicken and shrimp with zucchini, onion, bell pepper, and broccoli.",
+        "price": 19.50
+      },
+      { "id": 9,
+        "name": "Steak & Shrimp",
+        "description": "Ribeye steak and shrimp with zucchini, onion, mushroom, and broccoli.",
+        "price": 20.50
+      },
+      { "id": 10,
+        "name": "Steak, Shrimp, & Chicken",
+        "description": "Ribeye steak, shrimp, and teriyaki chicken with zucchini, onion, mushroom, broccoli, and bell pepper.",
+        "price": 20.50
+      }
+    ]
   }
+
+
 
 ]

@@ -28,6 +28,7 @@ const Specials = () => {
       <AllDay>
         <h2>All Day Special</h2>
         <p>Any three rolls for $38 / Five for $62</p>
+        <span>Click <a>here</a> for full menu.</span>
       </AllDay>
     </SpecialsContainer>
     </>

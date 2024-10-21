@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuText, MenuList, MenuHeader, ItemName } from './menuElements';
+import { MenuText, MenuList, MenuHeader, ItemName, ItemPrice } from './menuElements';
 
 const Menu = ({ items, category, description }) => {
   console.log(items);
@@ -15,7 +15,7 @@ const Menu = ({ items, category, description }) => {
         <ul>
           {items.map(item => (
             <li key={item.id}>
-              <ItemName>{item.name}</ItemName> - {item.description} ${item.price.toFixed(2)}
+              <ItemName>{item.name}</ItemName> - {item.description} <ItemPrice>${item.price.toFixed(2)}</ItemPrice>
             </li>
           ))}
         </ul>

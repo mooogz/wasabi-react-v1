@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 
 export const SpecialsContainer = styled.div`
-    background-color: #f0f0f0;
+    background-color: #1a1a1a;
     margin: 0;
     padding: 2rem 4rem;
     position: relative;
-    height: 60vh;
+    min-height: 60vh;
     display: grid;
     grid-template-rows: auto 1fr;
     grid-template-columns: 1fr 1fr;
@@ -46,6 +46,7 @@ export const SpecialsContainer = styled.div`
 
     h2 {
     font-size: 4rem;
+    color: #41AE45;
     }
     
     ul {
@@ -55,12 +56,21 @@ export const SpecialsContainer = styled.div`
     list-style: none; /* Optional: Removes default bullets */
     padding: 0;
     margin: 0;
+    color: #fff;
 }
     p {
     margin: 1rem 0;
     font-weight: 800;
     font-size: 1.5rem;
     color: #41AE45;
+    }
+
+    span {
+        color: #fff;
+    }
+
+    span a {
+        color: #41AE45;
     }
 
     @media screen and (max-width: 650px) {

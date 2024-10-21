@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Main = styled.div`
-    background: #000;
+    background: #1a1a1a;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -10,16 +10,12 @@ export const Main = styled.div`
 `
 
 export const MenuText = styled.h1`
-color: limegreen;
+color: #90A959;
 text-align: center;
 font-size: 5rem;
 padding: 2rem 0;
 `
 
-export const MenuHeader = styled.h2`
-color: limegreen;
-text-align: center;
-`
 
 export const MenuList = styled.ul`
 color: #fff;
