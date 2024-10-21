@@ -1,0 +1,151 @@
+[
+  {
+    "category": "Appetizers",
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahi Poke Chips",
+        "description": "Corn tortilla chips topped with spicy tuna, avocado, eel sauce, and wasabi mayo.",
+        "price": 9.25
+      },
+      {
+        "id": 2,
+        "name": "Edamame",
+        "description": "Lightly salted soybeans.",
+        "price": 5.50
+      },
+      {
+        "id": 3,
+        "name": "Chicken Wings",
+        "description": "5pc chicken wings seasoned with salt, pepper, and garlic. Soy lemon sauce on the side.",
+        "price": 7.00
+      },
+      {
+        "id": 4,
+        "name": "Potstickers (Gyoza)",
+        "description": "Fried or steamed. Contains pork and vegetables.",
+        "price": 6.00
+      },
+      {
+        "id": 5,
+        "name": "Tako Yaki",
+        "description": "Chopped octopus wrapped in potato flour & deep fried. Topped with eel sauce, Japanese mayo, and bonito flakes.",
+        "price": 6.50
+      },
+      { "id": 6,
+        "name": "Vegetable Tempura",
+        "description": "8pc - zucchini, onion, mushroom, sweet potato, & broccoli",
+        "price": 7.50
+      },
+      { "id": 7,
+        "name": "Shrimp Tempura",
+        "description": "5pc",
+        "price": 8.50
+      },
+      { "id": 8,
+        "name": "Shrimp & Vegetable Tempura",
+        "description": "3pc shrimp, 4pc vegetable",
+        "price": 9.25
+      }
+    ]
+  },
+
+  {
+    "category": "Soup & Salads",
+    "items": [
+      {
+        "id": 1,
+        "name": "Crab Salad",
+        "description": "Cucumber spirals, tempura flakes, crabstick, spicy mayo, and ponzu sauce.",
+        "price": 1.95
+      },
+      {
+        "id": 2,
+        "name": "Seaweed Salad",
+        "description": "",
+        "price": 6.25
+      },
+      {
+        "id": 3,
+        "name": "House Salad",
+        "description": "Lettuce, cucumber, carrot, and tomato served with homemade ginger or ranch dressing.",
+        "price": 2.75
+      },
+      {
+        "id": 4,
+        "name": "Miso Soup",
+        "description": "Soybean broth with mushrooms, green onion, tofu, and seaweed.",
+        "price": 2.50
+      }
+    ]
+  },
+  {
+    "category": "Udon Soup",
+    "items": [
+      {
+        "id": 1,
+        "name": "Kake Udon",
+        "description": "Shredded imitation crab meat, fish cakes, seaweed, green onion.",
+        "price": 11.50
+      },
+      {
+        "id": 2,
+        "name": "Tempura Udon",
+        "description": "Tempura shrimp, shredded imitation crab meat, fish cake, seaweed, green onion, topped with tempura flakes.",
+        "price": 13.50
+      }
+    ]
+  },
+  {
+    "category": "Yaki Udon",
+    "description": "Stir fried udon noodles with vegetables",
+    "items": [
+      {
+        "id": 1,
+        "name": "Vegetable Yaki Udon",
+        "description": "Zucchini, onion, mushroom, broccoli, bell pepper, carrots, and bean sprouts.",
+        "price": 11.50
+      },
+      {
+        "id": 2,
+        "name": "Chicken Yaki Udon",
+        "description": "Chicken, zucchini, onion, mushroom, broccoli, bell pepper, and carrots.",
+        "price": 13.50
+      },
+      {
+        "id": 3,
+        "name": "Shrimp Yaki Udon",
+        "description": "Shrimp, zucchini, onion, mushroom, broccoli, bell pepper, and carrots.",
+        "price": 15.50
+      },
+      {
+        "id": 4,
+        "name": "Steak Yaki Udon",
+        "description": "Ribeye steak, zucchini, onion, mushroom, broccoli, bell pepper, and carrots.",
+        "price": 15.50
+      }
+    ]
+  },
+  {
+    "category": "Poke Bowls",
+    "description": "Sushi rice or white rice, seaweed salad, avocado, lettuce, edamame, chips. Topped with spicy mayo and eel sauce.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Ahi Tuna Poke Bowl",
+        "price": 13.50
+      },
+      {
+        "id": 2,
+        "name": "Salmon Poke Bowl",
+        "price": 13.50
+      },
+      {
+        "id": 3,
+        "name": "Bulgogi Poke Bowl",
+        "price": 13.50
+      }
+    ]
+  }
+
+]

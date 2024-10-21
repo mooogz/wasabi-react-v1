@@ -1,14 +1,5 @@
 import styled from 'styled-components';
 
-export const Main = styled.div`
-    background: #000;
-    color: #fff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-`
-
 export const MenuText = styled.h1`
 color: limegreen;
 text-align: center;

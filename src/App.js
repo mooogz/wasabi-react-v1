@@ -5,6 +5,8 @@ import Hero from './components/Hero';
 import Specials from './components/Specials';
 import FullMenu from './Pages/FullMenu/fullMenu';
 import Home from './Pages/FullMenu/Home';
+import Menu from './components/Menu';
+import menuData from './data/menuData.json';
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
       <GlobalStyle />
       <Routes>
         <Route path="/" element={ <Home/> }/>
-        <Route path="/menu" element={ <FullMenu /> }/>
+        <Route path="/menu" element={ <FullMenu menuItems={menuData} /> }/>
       </Routes>
     </Router>
   );
