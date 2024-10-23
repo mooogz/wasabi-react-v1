@@ -207,6 +207,144 @@
         "price": 20.50
       }
     ]
+  },
+  {
+    "category": "Hibachi Sides",
+    "items": [
+      {
+        "id": 1,
+        "name": "Teriyaki Chicken",
+        "price": 8.00
+      },
+      {
+        "id": 2,
+        "name": "Shrimp",
+        "price": 9.50
+      },
+      {
+        "id": 3,
+        "name": "Ribeye Steak",
+        "price": 9.50
+      }
+    ]
+  },
+  {
+    "category": "Bento Boxes",
+    "description": "2pc fried pork gyoza, fried rice, and 4 pc California roll.",
+    "items": [
+      {
+        "id": 1,
+        "name": "Teriyaki Chicken",
+        "price": 13.50
+      },
+      {
+        "id": 2,
+        "name": "Shrimp",
+        "price": 15.00
+      },
+      {
+        "id": 3,
+        "name": "Ribeye Steak",
+        "price": 15.00
+      }
+    ]
+  },
+  {
+    "category": "Desserts",
+    "items": [
+      {
+        "id": 1,
+        "name": "Fried Ice Cream",
+        "description": "Deep fried vanilla ice cream topped with chocolate syrup and whipped cream. Contains nuts.",
+        "price": 6.50
+      },
+      {
+        "id": 2,
+        "name": "Mochi Ice Cream",
+        "description": "2pc mochi - green tea, red bean, strawberry, mango, or black sesame.",
+        "price": 5.50
+      },
+      {
+        "id": 3,
+        "name": "Fried Cheesecake",
+        "price": 6.50
+      }
+    ]
+  },
+
+  {
+    "category": "Nigiri & Sashimi",
+    "description": "2pc per order - nigiri (with rice) or sashimi (no rice)",
+    "items": [
+      {
+        "id": 1,
+        "name": "Albacore Tuna",
+        "description": "Seared.",
+        "price": 5.50
+      },
+      {
+        "id": 2,
+        "name": "Crab",
+        "price": 4.50
+      },
+      {
+        "id": 3,
+        "name": "Eel",
+        "price": 6.00
+      },
+      {
+        "id": 4,
+        "name": "Mackerel",
+        "price": 5.50
+      },
+      {
+        "id": 5,
+        "name": "Masago",
+        "description": "Fish roe",
+        "price": 5.50
+      },
+      { "id": 6,
+        "name": "Salmon",
+        "price": 6.25
+      },
+      { "id": 7,
+        "name": "Salmon Egg",
+        "price": 7.00
+      },
+      { "id": 8,
+        "name": "Scallop",
+        "price": 7.00
+      },
+      { "id": 9,
+        "name": "Shrimp",
+        "price": 5.00
+      },
+      { "id": 10,
+        "name": "Smoked Salmon",
+        "price": 6.25
+      },
+      {
+        "id": 11,
+        "name": "Spicy Sallop",
+        "price": 7.00
+      },
+      { "id": 12,
+        "name": "Tamago",
+        "price": 4.50
+      },
+      { "id": 13,
+        "name": "Tuna",
+        "price": 6.25
+      },
+      { "id": 14,
+        "name": "White Tuna",
+        "price": 6.00
+      },
+      { "id": 15,
+        "name": "Yellowtail",
+        "price": 6.25
+      }
+    ]
   }
 
 

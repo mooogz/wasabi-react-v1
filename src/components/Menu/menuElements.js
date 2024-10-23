@@ -15,6 +15,7 @@ text-align: center;
 export const MenuList = styled.ul`
 color: #F5F5DC;
 padding: 1rem 0;
+list-style: none;
 `
 
 export const ItemName = styled.span`

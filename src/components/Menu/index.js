@@ -12,13 +12,11 @@ const Menu = ({ items, category, description }) => {
       <MenuHeader>{category}</MenuHeader>
       {description && <p>{description}</p>} {/* Render description if provided */}
       <MenuList>
-        <ul>
-          {items.map(item => (
-            <li key={item.id}>
-              <ItemName>{item.name}</ItemName> - {item.description} <ItemPrice>${item.price.toFixed(2)}</ItemPrice>
-            </li>
-          ))}
-        </ul>
+        {items.map(item => (
+          <li key={item.id}>
+            <ItemName>{item.name}</ItemName> - {item.description} <ItemPrice>${item.price.toFixed(2)}</ItemPrice>
+          </li>
+        ))}
       </MenuList>
     </div>
   );
