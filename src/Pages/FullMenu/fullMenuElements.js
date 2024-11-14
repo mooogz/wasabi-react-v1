@@ -19,13 +19,22 @@ export const MenuText = styled.h1`
 // Flex container to place two menus side-by-side
 export const TwoColumnContainer = styled.div`
     display: flex;
-    justify-content: space-between;  // Ensures both containers are spaced evenly
+    justify-content: space-between;
     width: 100%;
+
+    @media screen and (max-width: 650px) {
+        flex-direction: column;
+        }
 `;
 
 export const MenuContainer = styled.div`
-    width: 48%;  // Each menu will take up 48% of the width
+    width: 48%;
     margin: 0 1rem;
+
+    @media screen and (max-width: 650px) {
+        min-width: 100%;
+        margin: 0;
+        }
 `;
 
 export const MenuList = styled.ul`

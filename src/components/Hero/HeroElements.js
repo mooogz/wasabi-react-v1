@@ -39,7 +39,7 @@ export const HeroH1 = styled.h1`
     margin-bottom: 1rem;
     box-shadow: 5px 5px #92c874;
     letter-spacing: 3px;
-    color: #41AE45;
+    color: #7CFF67;
 `
 
 export const HeroP = styled.p`
@@ -50,7 +50,7 @@ export const HeroBtn = styled.button`
     font-size: 1.4rem;
     padding: 1rem 4rem;
     border: none;
-    background: #41AE45;
+    background: #7CFF67;
     color: #000;
     transition: 0.2s ease-out;
     border-radius: 35px;
