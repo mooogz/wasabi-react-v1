@@ -1,5 +1,5 @@
 import React from 'react';
-import { MenuText, MenuList, MenuHeader, ItemName, ItemPrice } from './menuElements';
+import { MenuList, MenuHeader, ItemName, ItemPrice } from './menuElements';
 
 const Menu = ({ items, category, description }) => {
   console.log(items);

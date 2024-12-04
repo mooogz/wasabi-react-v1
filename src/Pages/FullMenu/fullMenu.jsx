@@ -5,6 +5,7 @@ import { MenuList } from '../../components/Menu/menuElements';
 import CollapsibleMenu from '../../components/CollapsibleMenu/CollapsibleMenu';
 import { useMediaQuery } from 'react-responsive';
 import Menu from '../../components/Menu';
+import Navbar from '../../components/Navbar';
 
 const FullMenu = () => {
   const isMobile = useMediaQuery({ maxWidth: 650 });
@@ -22,13 +23,16 @@ const FullMenu = () => {
   ];
 
   const sushiRolls = menuData.find(category => category.category === "Nigiri & Sashimi");
+  const sushiMeals = menuData.find(category => category.category === "Sushi & Sashimi Meals");
+  const specialRolls = menuData.find(category => category.category === "Sushi Rolls");
 
   return (
     <Main>
+      <Navbar />
       <MenuText>Menu</MenuText>
       {isMobile ? (
         // Render CollapsibleMenu on mobile screens
-        <CollapsibleMenu categories={categories} sushiRolls={sushiRolls} />
+        <CollapsibleMenu categories={categories} sushiRolls={sushiRolls} sushiMeals={sushiMeals} specialRolls={specialRolls} />
       ) : (
         // Render the regular two-column layout on larger screens
         <TwoColumnContainer>
@@ -46,6 +50,18 @@ const FullMenu = () => {
                 items={sushiRolls.items} 
                 category={sushiRolls.category}
                 description={sushiRolls.description}
+              />
+              <Menu 
+                key={sushiMeals.category} 
+                items={sushiMeals.items} 
+                category={sushiMeals.category}
+                description={sushiMeals.description}
+              />
+              <Menu 
+                key={specialRolls.category} 
+                items={specialRolls.items} 
+                category={specialRolls.category}
+                description={specialRolls.description}
               />
             </MenuList>
           </MenuContainer>

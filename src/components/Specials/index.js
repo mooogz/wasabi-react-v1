@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpecialsContainer, Lunch, AllDay, SpecialsH1 } from './SpecialsElements';
+import { SpecialsContainer, Lunch, AllDay } from './SpecialsElements';
 
 const Specials = () => {
   return (
@@ -28,7 +28,7 @@ const Specials = () => {
       <AllDay>
         <h2>All Day Special</h2>
         <p>Any three rolls for $38 / Five for $62</p>
-        <span>Click <a>here</a> for full menu.</span>
+        <span>Click <a href="/menu">here</a> for full menu.</span>
       </AllDay>
     </SpecialsContainer>
     </>

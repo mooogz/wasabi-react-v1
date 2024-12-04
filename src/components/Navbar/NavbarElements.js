@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import { GiSushis } from 'react-icons/gi';
-import logo from '../../images/wasabi-logo.png';
 
 export const Nav = styled.nav`
     background: transparent;

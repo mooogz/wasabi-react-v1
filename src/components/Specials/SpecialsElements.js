@@ -39,13 +39,13 @@ export const SpecialsContainer = styled.div`
     align-self: flex-start;
     font-size: 5rem;
     text-transform: uppercase;
-    color: #41AE45;
+    color: #7CFF67;
     letter-spacing: .6rem;
      grid-column: 1 / -1;
     }
 
     h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #41AE45;
     }
     
@@ -62,7 +62,7 @@ export const SpecialsContainer = styled.div`
     margin: 1rem 0;
     font-weight: 800;
     font-size: 1.5rem;
-    color: #41AE45;
+    color: #7CFF67;
     }
 
     span {
@@ -74,16 +74,20 @@ export const SpecialsContainer = styled.div`
     }
 
     @media screen and (max-width: 650px) {
-        height: 100%;
-        width: 100%;
+        min-height: 100%;
+        min-width: 100%;
 
         h1 {
         font-size: 3rem;
         }
 
         h2 {
-        font-size: 1.5rem;
+        font-size: 2rem;
         }
+
+       p {
+       font-size: 1.3rem;
+       }
 
 }
 `;
@@ -94,7 +98,7 @@ export const Lunch = styled.div`
     width: 50%;
 
     @media screen and (max-width: 650px) {
-    width: 100%;
+    width: 50vw;
 }
 
 `
@@ -106,6 +110,6 @@ export const AllDay = styled.div`
     
     width: 50%;
     @media screen and (max-width: 650px) {
-    width: 100%;
+    width: 25vw;
 }
 `;

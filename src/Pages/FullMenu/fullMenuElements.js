@@ -21,6 +21,7 @@ export const TwoColumnContainer = styled.div`
     display: flex;
     justify-content: space-between;
     width: 100%;
+    padding: 0 5rem;
 
     @media screen and (max-width: 650px) {
         flex-direction: column;
@@ -41,4 +42,21 @@ export const MenuList = styled.ul`
     color: #fff;
     padding: 1rem 0;
     list-style: none;
+`;
+
+
+// Add this styled component to the fullMenuElements file
+export const WrapList = styled.ul`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;  /* Space between items */
+  padding: 1rem 0;
+  list-style: none;
+  text-align: left;
+  color: #F5F5DC;
+
+  li {
+    flex: 1 1 calc(33.33% - 1rem); /* Adjust the width of each item */
+    margin-bottom: 1rem;
+  }
 `;

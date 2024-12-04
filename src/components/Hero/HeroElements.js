@@ -1,8 +1,10 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import ImgBg from '../../images/sushi-bg.jpg';
+import SteakBg from '../../images/steak_bg.jpg';
+
 
 export const HeroContainer = styled.div`
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(${ImgBg});
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(${ImgBg});
     min-height: 100vh;
     background-position: center;
     background-size: cover;
