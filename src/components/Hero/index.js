@@ -5,16 +5,16 @@ import Sidebar from '../Sidebar';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
-  const [isOpen, setIsOpen] = useState(false)
+  // const [isOpen, setIsOpen] = useState(false)
 
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  }
+  // const toggle = () => {
+  //   setIsOpen(!isOpen)
+  // }
 
   return (
     <HeroContainer>
-        <Navbar toggle={toggle} />
-        <Sidebar isOpen={isOpen} toggle={toggle} />
+        <Navbar/>
+        {/* <Sidebar isOpen={isOpen} toggle={toggle} /> */}
         <HeroContent>
             <HeroItems>
                 <HeroH1>Wasabi Japanese Restaurant</HeroH1>

@@ -5,22 +5,7 @@ import MenuSection, { ItemName, ListItem } from './MenuSection';
 const CollapsibleMenu = ({ categories, sushiRolls, sushiMeals, specialRolls }) => {
     return (
         <div>
-            {/* Render categories */}
-            {categories.map(({ name, items, description }) => (
-                <MenuSection key={name} title={name}>
-                    {description && <p>{description}</p>}
-                    <ul>
-                        {items.map((item, index) => (
-                            <ListItem key={index}>
-                                <ItemName>{item.name}</ItemName>
-                                {item.price && ` - $${item.price.toFixed(2)}`}
-                                {item.description && <p>{item.description}</p>}
-                            </ListItem>
-                        ))}
-                    </ul>
-                </MenuSection>
-            ))}
-            
+
             {/* Render sushiRolls if available */}
             {sushiRolls && (
                 <MenuSection title={sushiRolls.category}>
@@ -67,6 +52,24 @@ const CollapsibleMenu = ({ categories, sushiRolls, sushiMeals, specialRolls }) =
                     </ul>
                 </MenuSection>
             )}
+            
+            {/* Render categories */}
+            {categories.map(({ name, items, description }) => (
+                <MenuSection key={name} title={name}>
+                    {description && <p>{description}</p>}
+                    <ul>
+                        {items.map((item, index) => (
+                            <ListItem key={index}>
+                                <ItemName>{item.name}</ItemName>
+                                {item.price && ` - $${item.price.toFixed(2)}`}
+                                {item.description && <p>{item.description}</p>}
+                            </ListItem>
+                        ))}
+                    </ul>
+                </MenuSection>
+            ))}
+            
+            
         </div>
     );
 };

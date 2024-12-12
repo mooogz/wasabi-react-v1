@@ -2,7 +2,7 @@ import React from 'react';
 import SteakBg from '../../images/steak_bg.jpg';
 import CcArmy from '../../images/cc-army.jpg';
 import TempuraUdon from '../../images/tempura-udon.jpeg';
-import { PhotosContainer } from './PhotosElements';
+import { PhotosContainer, ScrollableContainer } from './PhotosElements';
 
 const Photos = () => {
   const photoList = [
@@ -13,9 +13,11 @@ const Photos = () => {
 
   return (
     <PhotosContainer>
-      {photoList.map((photo, index) => (
-        <img key={index} src={photo.src} alt={photo.alt} />
-      ))}
+      <ScrollableContainer>
+        {photoList.map((photo, index) => (
+          <img key={index} src={photo.src} alt={photo.alt} />
+        ))}
+      </ScrollableContainer>
     </PhotosContainer>
   );
 };
